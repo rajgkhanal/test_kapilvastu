@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>संक्षिप्त परिचय</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+	
+	<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+
+	<section id="ens-aji-a" data-role="page" data-theme="b">
+	
+			<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>हाम्रो कपिलवस्तु</p>
+    </header>								
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>पुरातात्विक तथा ऐतिहासिक स्थलहरु :</p>
+				</div>
+
+					
+				<div class="ui-body ui-body-a">
+					<p class="texto" style=text-align:justify;>
+
+					<!--<h3><u>मुख्य :</h3></u><br>-->
+
+			<strong></strong> तिलौराकोट, कुदान, गोटिहवा, सगरहवा, निग्लिहवा, डेरवा, सारकुप, अरौराकोट, सिसहनिया आदि ।<br><br>
+			<strong>नदीनाला :</strong> वाणगंगा, अर्रा, अगिया, कोईली, सुराई, चिराई, गुडरुङ, जमुवार आदि ।<br><br>
+
+			<strong>ताल :</strong> जगदिशपुर ताल, सगरहवा ताल, विजुवा, कोपवा, बुड्ढी, हरिहरपुर ताल, कर्मा ताल, घोघहवा ताल, पुरैनी ताल आदि ।<br><br>
+
+			
+
+			<strong>सांस्कृतिक सम्पदाहरु :</strong> समयमाई, ताम्रेश्वरनाथ महादेव, शिवगढी, रामघाट, लक्ष्मणघाट आदि ।<br><br>
+
+			<strong>चाडपर्व:</strong> दशैं, तिहार, फाल्गुण पुर्णिमा, रामनवमी, शिवरात्री, चैते दशैं, तिज, मकर सक्रान्ति, मोहर्म, ईद, बकर ईद आदि ।<br><br>
+
+			<strong>मेला :</strong> रामघाट मेला, लक्ष्मणघाट मेला, रामलिला मेला, थारु पर्व, शिवगढी मेला, हथौसा मेला आदि ।<br><br>
+
+			<strong>व्यापारिक स्थानहरु :</strong> तौलिहवा, कृष्णनगर, चन्द्रौटा, गोरुसिंगे, जितपुर, पकडी, लवनी आदि ।<br><br>
+
+				</p>
+
+
+		</div>
+		</div>
+		</div>
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">मुख्य मेनु</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">पछाडी</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section><!-- /page -->
+	
+
+</body>
+</html>

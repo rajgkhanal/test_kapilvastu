@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Hamro Kapilvastu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	<section id="page" data-role="page" data-theme="c">
+		<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>परिचय</p>
+    </header>
+		
+		<article data-role="content">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="खाेज्नुहाेस">
+				<li >
+					<a rel="external" data-ajax="false"  href="../spanish/aboutdis.html" data-transition="flip">संक्षिप्त परिचय</a>
+				</li>
+				<li >
+					<a rel="external" data-ajax="false"  href="../spanish/histryofdis.html" data-transition="flip">एेतिहासिक परिचय</a>
+				</li>
+				
+				<li >
+					<a rel="external" data-ajax="false"  href="../spanish/papulation.html" data-transition="flip">आधारभूत जनासंखियक विवरण – २०६८</a>
+				</li>
+				
+				<li >
+					<a rel="external" data-ajax="false"  href="../spanish/weather.html" data-transition="flip">जलवायु</a>
+				</li>
+				<li >
+					<a rel="external" data-ajax="false"  href="../spanish/geostruct.html" data-transition="flip">भाैगाेलिक बनावट</a>
+				</li>
+			</ul>
+		</article><!-- /content -->
+		
+		
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">मुख्य पृष्ठ</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">पछाडी</a></li>
+      </ul>
+    </div>
+		</footer>
+</body>
+</html>

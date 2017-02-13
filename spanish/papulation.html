@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>संक्षिप्त परिचय</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+	
+	<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+
+	<section id="ens-aji-a" data-role="page" data-theme="b">
+	
+			<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>हाम्रो कपिलवस्तु</p>
+    </header>								
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>आधारभूत जनासंखियक विवरण – २०६८</p>
+				</div>
+
+					
+				<div class="ui-body ui-body-a">
+					<p class="texto" style=text-align:justify;>
+					<strong>क्र.सं.	विवरण	इकाई	मान</strong><br><br>
+					१	कूल जनसंख्या	जना	५७१९३६<br><br>
+					२	पुरुष	जना	२८५५९९<br><br>
+					३	महिला	जना	२८६३३७<br><br>
+					४	कुल घरपरिवार संख्या	वटा	९१३२१<br><br>
+					५	औषत परिवार संख्या	संख्या	६.२६<br><br>
+					६	जन घनत्व	प्र.व.कि.मी.	३२९<br><br>
+					७	जनसंख्या बृद्धिदर	प्रतिशत	१.७१<br><br>
+					८	जनसंख्या दोब्बर हुन लाग्ने अवधि	वर्ष	४१<br><br>
+					९	लैंगिक अनुपात ( पुरुष/महिला)	अनुपात	९९.७४<br><br>
+					१०	५ वर्ष मुनिको जनसंख्या	जना	६३४३८<br><br>
+					११	७५ वर्ष र सो भन्दा माथिको जनसंख्या	जना	७५२५<br><br>
+					१२	शहरी जनसंख्या	प्रतिशत	५.३२<br><br>
+					१३	ग्रामीण जनसंख्या	प्रतिशत	९४.६८<br><br>
+					१४	०–१४ वर्ष उमेर समुहको जनसंख्या	जना	२१८७७४<br><br>
+					१५	०–१४ वर्ष उमेर समुहको पुरुष जनसंख्या	जना	११२१८८<br><br>
+					१६	०–१४ वर्ष उमेर समुहको महिला जनसंख्या	जना	१०६५८६<br><br>
+					१७	१५–५९ वर्ष उमेर समुहको जनसंख्या	जना	३०९०५४<br><br>
+					१८	१५–५९ वर्ष उमेर समुहको पुरुष जनसंख्या	जना	१४९८१४<br><br>
+					१९	१५–५९ वर्ष उमेर समुहको महिला जनसंख्या	जना	१५९२४०<br><br>
+					२०	६० वर्ष वा सोभन्दा माथिको जनसंख्या	जना	४४१०८<br><br>
+					२१	६० वर्ष वा सोभन्दा माथिको पुरुष जनसंख्या	जना	२३५९७<br><br>
+					२२	६० वर्ष वा सोभन्दा माथिका महिला जनसंख्या	जना	२०५११<br><br>
+					२३	अपाङ्गको जनसंख्या	जना	७३३३<br><br>
+					२४	आश्रीत अनुपात	अनुपात	०.८५<br><br>
+					२५	बाल बालिका आश्रीत अनुपात	अनुपात	०.७०<br><br>
+					२६	बृद्ध बृद्धा आश्रीत अनुपात	अनुपात	०.१४<br><br>
+					२७	प्रोढ साक्षरता दर	प्रतिशत	५४.९१<br><br>
+					२८	नेपालको जनसंख्यामा जिल्लाको अंश	प्रतिशत	२.१५<br><br>
+				</p>
+		</div>
+		</div>
+		</div>
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">মূল মেন্যু</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">পিছনে</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section><!-- /page -->
+	
+
+</body>
+</html>
