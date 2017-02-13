@@ -3,20 +3,20 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.boichitromoy.khagrachari"
+        id        = "com.hamrokapilvstu"
 		versionCode = "37"
         version   = "1.0.0">
 
-    <name>বৈচিত্র্যময় খাগড়াছড়ি</name>
+    <name>हाम्राे कपिलबस्तु</name>
 
     <description>
-		"বৈচিত্র্যময় খাগড়াছড়ি" বাংলদেশের প্রথম জেলা ভিত্তিক মোবাইল এপ
+		कपिलबस्तु जिल्लाकाे वारेमा केही जानकारीहरु 
 
 
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-       Pavel Sarwar
+       Dev Raj
     </author>
 	
 
